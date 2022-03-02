@@ -5,13 +5,13 @@ import { FaFacebook } from 'react-icons/fa';
 const Footer = () => {
 	return (
 		<footer>
-			<a href='#' className='footer__logo'>
+			<a href='#header' className='footer__logo'>
 				AYUSH
 			</a>
 
 			<ul className='permalinks'>
 				<li>
-					<a href='#'>Home</a>
+					<a href='#header'>Home</a>
 				</li>
 				<li>
 					<a href='#about'>About</a>

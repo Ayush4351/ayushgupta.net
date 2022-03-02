@@ -12,9 +12,9 @@ const Nav = () => {
 	return (
 		<nav>
 			<a
-				href='#'
-				onClick={() => setActiveNav('#')}
-				className={activeNav === '#' ? 'active noSelect' : 'noSelect'}
+				href='#header'
+				onClick={() => setActiveNav('#header')}
+				className={activeNav === '#header' ? 'active noSelect' : 'noSelect'}
 			>
 				<BiHomeAlt />
 			</a>

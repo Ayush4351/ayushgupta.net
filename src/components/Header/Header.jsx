@@ -8,17 +8,20 @@ import ME from '../../assets/me.png';
 const Header = () => {
 	return (
 		<header>
-			<div className='container header__container'>
+			<div className='container header__container' id='home'>
 				<h4>Hello &#128075; I'm</h4>
 				<h1>Ayush</h1>
-				<h5 className='text-light'>
-					Full Stack Developer & Site Reliability Engineer
-				</h5>
+				<h4 className='text-light'>
+					Site Reliability Engineer{' '}
+					<a href='https://www.phonepe.com/' rel='noreferrer' target='_blank'>
+						@PhonePe
+					</a>
+				</h4>
 				<CTA />
 				<HeaderSocials />
 
 				<div className='me'>
-					<img src={ME} alt='' />
+					<img src={ME} alt='my_image' />
 				</div>
 
 				<a href='#contact' className='scroll__down'>

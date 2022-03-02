@@ -17,29 +17,25 @@ const data = [
 		avatar: AVATAR,
 		name: 'Ernest Achiever',
 		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis\
-		asperiores incidunt aspernatur neque animi esse nostrum ab',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores incidunt aspernatur neque animi esse nostrum ab',
 	},
 	{
 		avatar: AVATAR,
 		name: 'Ernest Achiever',
 		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis\
-		asperiores incidunt aspernatur neque animi esse nostrum ab',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores incidunt aspernatur neque animi esse nostrum ab',
 	},
 	{
 		avatar: AVATAR,
 		name: 'Ernest Achiever',
 		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis\
-		asperiores incidunt aspernatur neque animi esse nostrum ab',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores incidunt aspernatur neque animi esse nostrum ab',
 	},
 	{
 		avatar: AVATAR,
 		name: 'Ernest Achiever',
 		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis\
-		asperiores incidunt aspernatur neque animi esse nostrum ab',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores incidunt aspernatur neque animi esse nostrum ab',
 	},
 ];
 

@@ -14,7 +14,7 @@ const About = () => {
 			<div className='container about__container'>
 				<div className='about__me'>
 					<div className='about__me-image'>
-						<img src={Me} alt='' />
+						<img src={Me} alt='my_image' />
 					</div>
 				</div>
 
@@ -22,20 +22,20 @@ const About = () => {
 					<div className='about__cards'>
 						<article className='about__card'>
 							<FaAward className='about__icon' />
-							<h5>Experience</h5>
-							<small>3+ Years Working</small>
+							<h5>Industry Experience</h5>
+							<small>1+ Years Industry Experience</small>
 						</article>
 
 						<article className='about__card'>
 							<FiUsers className='about__icon' />
-							<h5>Clients</h5>
-							<small>300+ Clients Worldwide</small>
+							<h5>Community Experience</h5>
+							<small>3+ Years of Community Experience</small>
 						</article>
 
 						<article className='about__card'>
 							<VscFolderLibrary className='about__icon' />
 							<h5>Projects</h5>
-							<small>80+ Completed Projects</small>
+							<small>Worked on many Projects</small>
 						</article>
 
 						<article className='about__card'>
@@ -46,10 +46,19 @@ const About = () => {
 					</div>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-						debitis, delectus expedita autem, perferendis hic quidem minus
-						consequuntur, excepturi earum possimus architecto ducimus assumenda
-						nam harum sunt ab animi eum.
+						Hello! My name is Ayush and I enjoy building systems for scale. I
+						love building for performance and scale, and I am always open to
+						learn new things(matter of fact, I enjoy that immensely!). But more
+						than that, I aim to build user-centric software with an obsession on
+						performance, which has an quality of life impact on the daily lives
+						of the users of my software. The main pillars and ideology I follow
+						behind the software I build are: usability, scalability,
+						performance, reliablity and maintainablity. Fast-forward to today,
+						and I've had the privilege of working at a few startups like Seraro
+						Solutions and Blocknomic Technologies, a fintech corporation, one of
+						the most popular API collaboration platforms, and currently, one of
+						the biggest super apps ever. Here is a non-exhaustive list of
+						technologies I've worked with:
 					</p>
 
 					<a href='#contact' className='btn btn-primary'>
