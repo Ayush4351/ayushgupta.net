@@ -14,40 +14,35 @@ const Nav = () => {
 			<a
 				href='#'
 				onClick={() => setActiveNav('#')}
-				className={activeNav === '#' ? 'active' : ''}
-				className='noSelect'
+				className={activeNav === '#' ? 'active noSelect' : 'noSelect'}
 			>
 				<BiHomeAlt />
 			</a>
 			<a
 				href='#about'
 				onClick={() => setActiveNav('#about')}
-				className={activeNav === '#about' ? 'active' : ''}
-				className='noSelect'
+				className={activeNav === '#about' ? 'active noSelect' : 'noSelect'}
 			>
 				<SiAboutdotme />
 			</a>
 			<a
 				href='#experience'
 				onClick={() => setActiveNav('#experience')}
-				className={activeNav === '#experience' ? 'active' : ''}
-				className='noSelect'
+				className={activeNav === '#experience' ? 'active noSelect' : 'noSelect'}
 			>
 				<BiBook />
 			</a>
 			<a
 				href='#services'
 				onClick={() => setActiveNav('#services')}
-				className={activeNav === '#services' ? 'active' : ''}
-				className='noSelect'
+				className={activeNav === '#services' ? 'active noSelect' : 'noSelect'}
 			>
 				<RiServiceLine />
 			</a>
 			<a
 				href='#contact'
 				onClick={() => setActiveNav('#contact')}
-				className={activeNav === '#contact' ? 'active' : ''}
-				className='noSelect'
+				className={activeNav === '#contact' ? 'active noSelect' : 'noSelect'}
 			>
 				<BiMessageSquare />
 			</a>
