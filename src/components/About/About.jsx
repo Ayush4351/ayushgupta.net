@@ -1,9 +1,9 @@
 import React from 'react';
 import './about.css';
 import Me from '../../assets/about-me.jpg';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
+import { FaReact, FaAws } from 'react-icons/fa';
+import { IoLogoNodejs } from 'react-icons/io';
+import { SiSolidity } from 'react-icons/si';
 
 const About = () => {
 	return (
@@ -21,44 +21,39 @@ const About = () => {
 				<div className='about__content'>
 					<div className='about__cards'>
 						<article className='about__card'>
-							<FaAward className='about__icon' />
-							<h5>Industry Experience</h5>
-							<small>1+ Years Industry Experience</small>
+							<FaReact className='about__icon' />
+							<h5>Frontend Development</h5>
+							<small>3+ Years of Experience</small>
 						</article>
 
 						<article className='about__card'>
-							<FiUsers className='about__icon' />
-							<h5>Community Experience</h5>
-							<small>3+ Years of Community Experience</small>
+							<IoLogoNodejs className='about__icon' />
+							<h5>Backend Development</h5>
+							<small>3+ Years of Experience</small>
 						</article>
 
 						<article className='about__card'>
-							<VscFolderLibrary className='about__icon' />
-							<h5>Projects</h5>
-							<small>Worked on many Projects</small>
+							<SiSolidity className='about__icon' />
+							<h5>Blockchain Development</h5>
+							<small>1 Year of Experience</small>
 						</article>
 
 						<article className='about__card'>
-							<VscFolderLibrary className='about__icon' />
-							<h5>Projects</h5>
-							<small>80+ Completed Projects</small>
+							<FaAws className='about__icon' />
+							<h5>Cloud Experience</h5>
+							<small>1 year of experience</small>
 						</article>
 					</div>
 
 					<p>
-						Hello! My name is Ayush and I enjoy building systems for scale. I
-						love building for performance and scale, and I am always open to
-						learn new things(matter of fact, I enjoy that immensely!). But more
-						than that, I aim to build user-centric software with an obsession on
-						performance, which has an quality of life impact on the daily lives
-						of the users of my software. The main pillars and ideology I follow
-						behind the software I build are: usability, scalability,
-						performance, reliablity and maintainablity. Fast-forward to today,
-						and I've had the privilege of working at a few startups like Seraro
-						Solutions and Blocknomic Technologies, a fintech corporation, one of
-						the most popular API collaboration platforms, and currently, one of
-						the biggest super apps ever. Here is a non-exhaustive list of
-						technologies I've worked with:
+						Hello! My name is Ayush and I am a Full Stack Developer and Site
+						Reliability Engineer who is passionate about building systems that
+						scale. I have experience in architecting and implementing
+						large-scale distributed systems with a focus on performance,
+						reliability, and scalability. I am currently a site reliability
+						engineer at <a href='https://www.phonepe.com/'>PhonePe</a>, a
+						fintech company which helps people of one of the largest economy in
+						the world (India) to make safe payments.
 					</p>
 
 					<a href='#contact' className='btn btn-primary'>

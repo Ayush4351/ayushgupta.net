@@ -1,26 +1,23 @@
 import React from 'react';
 import './footer.css';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
 		<footer>
-			<a href='#header' className='footer__logo'>
+			<a href='#home' className='footer__logo'>
 				AYUSH
 			</a>
 
 			<ul className='permalinks'>
 				<li>
-					<a href='#header'>Home</a>
+					<a href='#home'>Home</a>
 				</li>
 				<li>
 					<a href='#about'>About</a>
 				</li>
 				<li>
 					<a href='#experience'>Skills</a>
-				</li>
-				<li>
-					<a href='#services'>Services</a>
 				</li>
 				<li>
 					<a href='#portfolio'>Portfolio</a>
@@ -34,14 +31,17 @@ const Footer = () => {
 			</ul>
 
 			<div className='footer__socials'>
-				<a href='https://facebook.com'>
+				<a href='https://facebook.com/ayush4351'>
 					<FaFacebook />
 				</a>
-				<a href='https://facebook.com'>
-					<FaFacebook />
+				<a href='https://www.instagram.com/_ayush.gupta000_/'>
+					<FaInstagram />
 				</a>
-				<a href='https://facebook.com'>
-					<FaFacebook />
+				<a href='https://twitter.com/AyushGu4351'>
+					<FaTwitter />
+				</a>
+				<a href='https://linkedin.com/in/ayush4351'>
+					<FaLinkedin />
 				</a>
 			</div>
 

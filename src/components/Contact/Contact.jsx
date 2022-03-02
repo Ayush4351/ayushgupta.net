@@ -2,6 +2,7 @@ import React from 'react';
 import './contact.css';
 
 import { MdOutlineMail } from 'react-icons/md';
+import { FaFacebookMessenger, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
 	return (
@@ -15,19 +16,19 @@ const Contact = () => {
 						<MdOutlineMail className='contact__option-icon' />
 						<h4>Email</h4>
 						<h5>ayush4351@gmail.com</h5>
-						<a href='mailto:ayush4351@gmail.com'>Send a message</a>
+						<a href='mailto:ayush4351@gmail.com'>Drop a Mail</a>
 					</article>
 					<article className='contact__option'>
-						<MdOutlineMail className='contact__option-icon' />
-						<h4>Email</h4>
-						<h5>ayush4351@gmail.com</h5>
-						<a href='mailto:ayush4351@gmail.com'>Send a message</a>
+						<FaFacebookMessenger className='contact__option-icon' />
+						<h4>Messenger</h4>
+						<h5>ayush4351</h5>
+						<a href='https://m.me/ayush4351'>Send a message</a>
 					</article>
 					<article className='contact__option'>
-						<MdOutlineMail className='contact__option-icon' />
-						<h4>Email</h4>
-						<h5>ayush4351@gmail.com</h5>
-						<a href='mailto:ayush4351@gmail.com'>Send a message</a>
+						<FaTwitter className='contact__option-icon' />
+						<h4>Twitter</h4>
+						<h5>AyushGu4351</h5>
+						<a href='https://twitter.com/AyushGu4351'>Follow me!</a>
 					</article>
 				</div>
 				<form action=''>

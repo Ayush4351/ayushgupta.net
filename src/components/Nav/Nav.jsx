@@ -12,9 +12,9 @@ const Nav = () => {
 	return (
 		<nav>
 			<a
-				href='#header'
-				onClick={() => setActiveNav('#header')}
-				className={activeNav === '#header' ? 'active noSelect' : 'noSelect'}
+				href='#home'
+				onClick={() => setActiveNav('#home')}
+				className={activeNav === '#home' ? 'active noSelect' : 'noSelect'}
 			>
 				<BiHomeAlt />
 			</a>
@@ -33,9 +33,9 @@ const Nav = () => {
 				<BiBook />
 			</a>
 			<a
-				href='#services'
-				onClick={() => setActiveNav('#services')}
-				className={activeNav === '#services' ? 'active noSelect' : 'noSelect'}
+				href='#portfolio'
+				onClick={() => setActiveNav('#portfolio')}
+				className={activeNav === '#portfolio' ? 'active noSelect' : 'noSelect'}
 			>
 				<RiServiceLine />
 			</a>
