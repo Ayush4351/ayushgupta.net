@@ -12,7 +12,7 @@ const Header = () => {
 				<h4>Hello &#128075; I'm</h4>
 				<h1>Ayush</h1>
 				<h4 className='text-light'>
-					Site Reliability Engineer{' '}
+					DevOps Engineer{' '}
 					<a href='https://www.phonepe.com/' rel='noreferrer' target='_blank'>
 						@PhonePe
 					</a>
